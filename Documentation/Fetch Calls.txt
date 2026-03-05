@@ -6,11 +6,17 @@ Music Information = {add more here, and more, and more}
 
 End Points Car Telemetry:
 
-Car Battery Voltage = {End_Point_Name}
-Car Battery Current = {End_Point_Name}
+| Category | Variables                    |
+| -------- | ---------------------------- |
+| Motor    | Speed                        |
+| Battery  | Bus voltage                  |
+| Control  | Direction                    |
+| Torque   | Torque demand                |
+| Feedback | Current / torque feedback x2 |
 
 End Points GPS
 {esptime, date_ddmmyy, time_hhmmsscs, latitude, longitude, speed}
+
 
 
 
